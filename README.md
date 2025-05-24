@@ -3,38 +3,3 @@
 ## Abstract
 In the field of medical image segmentation, improving model performance with moderate model parameter becomes an urgent and challenge task. To address this problem, a novel model called ECHF-Seg is proposed, which focuses on the Effective Convolution and High-Frequency enhancement. Specifically, two major corresponding modules are Adaptive Decomposed Convolution (ADConv) and Dynamic High-frequency Feature enhancement module (DHF), respectively. Specifically, ADConv achieves a balance between the receptive field and computational overhead by establishing a dynamic mapping relationship between the size of the convolution kernel and the number of channel and the large convolutional kernel decomposition scheme. In the DHF module, a dynamical Discrete Wavelet Transform (DWT) is included for extracting high-frequency component. In particular, the decomposition level of DWT can be adjusted according to the resolution of the input feature maps. This design takes into account both the efficiency of high-frequency feature parsing and the hierarchy of network features. The effectiveness of the proposed ECHF-Seg model is validated through five datasets, which are Glas, BUSI, Kvasir, CVC-ClinicDB, and ISIC 2018. Experimental results show that the proposed ECHF-Seg model can greatly outperform other popular models with moderate model parameter.
 
-## Architecture of dataset
-dataset/
-└──GlaS/
-└──Test_Folder/
-├──img/
-│ ├──img01.bmp
-│ ├──img02.bmp
-│ └── ...
-
-├──labelcol/
-│ ├──labelcol01.bmp
-│ ├──labelcol02.bmp
-│ └── ...
-
-└──Train_Folder/
-├──img/
-│ ├──img01.bmp
-│ ├──img02.bmp
-│ └── ...
-
-├──labelcol/
-│ ├──labelcol01.bmp
-│ ├──labelcol02.bmp
-│ └── ...
-
-└──Val_Folder/
-├──img/
-│ ├──img01.bmp
-│ ├──img02.bmp
-│ └── ...
-
-├──labelcol/
-│ ├──labelcol01.bmp
-│ ├──labelcol02.bmp
-│ └── ...
