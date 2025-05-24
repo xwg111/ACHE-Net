@@ -5,13 +5,36 @@ In the field of medical image segmentation, improving model performance with mod
 
 ## Architecture of dataset
 dataset/
-|--GlaS/
-----Test_Folder/
-------img/
---------img01.bmp
---------img02.bmp
-...
+└──GlaS/
+└──Test_Folder/
+├──img/
+│ ├──img01.bmp
+│ ├──img02.bmp
+│ └── ...
 
-------labelcol/
---------labelcol01.bmp
---------labelcol02.bmp
+├──labelcol/
+│ ├──labelcol01.bmp
+│ ├──labelcol02.bmp
+│ └── ...
+
+└──Train_Folder/
+├──img/
+│ ├──img01.bmp
+│ ├──img02.bmp
+│ └── ...
+
+├──labelcol/
+│ ├──labelcol01.bmp
+│ ├──labelcol02.bmp
+│ └── ...
+
+└──Val_Folder/
+├──img/
+│ ├──img01.bmp
+│ ├──img02.bmp
+│ └── ...
+
+├──labelcol/
+│ ├──labelcol01.bmp
+│ ├──labelcol02.bmp
+│ └── ...
