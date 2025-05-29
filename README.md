@@ -39,9 +39,9 @@ The dataset path may look like:
 
 ### **Installation**
 ```bash
-git clone git@github.com:LDG2333/CFSeg-Net.git
-conda create -n cfseg python=3.8
-conda activate cfseg
+git clone https://github.com/xwg111/ECHF-Seg.git
+conda create -n env_name python=3.8
+conda activate env_name
 conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.7 -c pytorch -c nvidia
 ``` 
 
