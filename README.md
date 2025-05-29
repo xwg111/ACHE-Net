@@ -40,9 +40,9 @@ The dataset path may look like:
 ### **Installation**
 ```bash
 git clone https://github.com/xwg111/ECHF-Seg.git
-conda create -n env_name python=3.8
+conda create -n env_name python=3.7
 conda activate env_name
-conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.7 -c pytorch -c nvidia
+conda install pytorch==1.9.0 torchvision==0.14.1 torchaudio==0.10.0 -c pytorch -c nvidia
 ``` 
 
 
@@ -59,20 +59,5 @@ python test_model.py
 ``` 
 
 
-## Citation
-
-If you find our repo useful for your research, please consider citing our article. <br>
-This article has been submitted for peer-review in the journal called *The visual computer*.<br>
-```bibtex
-@ARTICLE{40046799,
-  author  = {Guodong Li, Shiren Li, Yaoxue Lin, Sihua Tang, Wenguang Xu, Kangxian Chen, Guangguang Yang},
-  journal = {The Viusal Computer}
-  title   = {CFSeg-Net: Context Feature Extraction Network for Medical Image Segmentation},
-  year    = {2025}
-}
-``` 
-
-
 ## Contact
-
-For technical questions, please contact guodong0012@gmail.com .
+For technical questions, please contact xwg987654@gmail.com .
