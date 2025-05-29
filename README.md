@@ -5,11 +5,12 @@ In the field of medical image segmentation, improving model performance with mod
 
 ## Experiment
 In the experimental section, five publicly available and widely utilized datasets are employed for testing purposes. These datasets are:<br> 
+GlaS (gland, with 165 images)<br>
 ISIC-2018 (dermoscopy, with 2,594 images)<br>
 Kvasir-SEG (endoscopy, with 1,000 images)<br> 
 BUSI (breast ultrasound, with 647 images)<br> 
 CVC-ClinicDB (colonoscopy, with 612 images)<br>  
-GlaS (gland, with 165 images)<br>
+
 
 In GlaS dataset, we split the dataset into a training set of 85 images and a test set of 80 images. <br>
 In ISIC 2018 dataset, we adopt the official split configuration, consisting of a training set with 2,594 images, a validation set with 100 images, and a test set with 1,000 images. <br>
