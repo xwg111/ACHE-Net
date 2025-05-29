@@ -17,7 +17,7 @@ In ISIC 2018 dataset, we adopt the official split configuration, consisting of a
 For other dataset, the images are randomly split into training, validation, and test sets with a ratio of 6:2:2.<br>
 The dataset path may look like:
 ```bash
-/The Dataset Path/
+/Your Dataset Path/
 ├── BUSI/
     ├── Train_Folder/
     │   ├── img
