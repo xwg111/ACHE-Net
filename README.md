@@ -59,5 +59,19 @@ python test_model.py
 ``` 
 
 
+## Citation
+
+If you find our repo useful for your research, please consider citing our article. <br>
+This article has been submitted for peer-review in the journal called *The visual computer*.<br>
+```bibtex
+@ARTICLE{40046799,
+  author  = {Wenguang Xu, Qian Dong, Shiren Li, Maxim Lushchyk, Shu Li, Maksim Davydov,Longquan Shao, Guangguang Yang},
+  journal = {The Viusal Computer}
+  title   = {CFSeg-Net: Context Feature Extraction Network for Medical Image Segmentation},
+  year    = {2025}
+}
+```
+
+
 ## Contact
 For technical questions, please contact xwg987654@gmail.com .
