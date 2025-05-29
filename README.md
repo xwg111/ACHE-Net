@@ -13,11 +13,11 @@ GlaS (Gland, with 165 images)<br>
 
 In GlaS dataset, we split the dataset into a training set of 85 images and a test set of 80 images. <br>
 In ISIC 2018 dataset, we adopt the official split configuration, consisting of a training set with 2,594 images, a validation set with 100 images, and a test set with 1,000 images. <br>
-For each dataset, the images are randomly split into training, validation, and test sets with a ratio of 6:2:2.<br>
+For other dataset, the images are randomly split into training, validation, and test sets with a ratio of 6:2:2.<br>
 The dataset path may look like:
 ```bash
 /The Dataset Path/
-├── ISIC-2018/
+├── BUSI/
     ├── Train_Folder/
     │   ├── img
     │   ├── labelcol
@@ -47,16 +47,14 @@ conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cud
 
 ### **Training**
 ```bash
-python Experiment/train_model.py
+python train_model.py
 ```
-To run on different setting or different datasets, please modify:
-
-batch_size, model_name, and task_name in Experiment/Config.py .
+To run on different setting or different datasets, please modify Config.py .
 
 
 ### **Evaluation**
 ```bash
-python Experiment/test_model.py
+python test_model.py
 ``` 
 
 
