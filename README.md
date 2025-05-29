@@ -67,7 +67,7 @@ This article has been submitted for peer-review in the journal called *The visua
 @ARTICLE{echf,
   author  = {Wenguang Xu, Qian Dong, Shiren Li, Maxim Lushchyk, Shu Li, Maksim Davydov,Longquan Shao, Guangguang Yang},
   journal = {The Viusal Computer}
-  title   = {CFSeg-Net: Context Feature Extraction Network for Medical Image Segmentation},
+  title   = {ECHF-Seg: Effective Convolution and High-frequency Enhancement Scheme for Medical Image Segmentation},
   year    = {2025}
 }
 ```
