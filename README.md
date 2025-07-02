@@ -1,4 +1,4 @@
-# ECHF-Seg
+# ACHENet
 
 In the field of medical image segmentation, improving model performance with moderate model parameter becomes an urgent and challenge task. To address this problem, a novel model called ECHF-Seg is proposed in this study, which focuses on the effective convolution and high-frequency enhancement scheme. Two corresponding solutions are Adaptive Decomposed Convolution (ADConv) and Dynamic High-frequency Feature enhancement module (DHF), respectively. Specifically, ADConv achieves a balance between the receptive field and computational overhead by establishing a dynamic mapping between the size of the convolution kernel and the number of channels. In the DHF module, a dynamical Discrete Wavelet Transform (DWT) is included for extracting high-frequency component. In particular, the decomposition level of DWT can be adjusted according to the resolution of the input feature maps. The effectiveness of the proposed ECHF-Seg model is validated through five datasets, which are Glas, BUSI, Kvasir, CVC-ClinicDB, and ISIC 2018. Experimental results show that the proposed ECHF-Seg model can greatly outperform other popular models with moderate model parameter. 
 
@@ -39,7 +39,7 @@ The dataset path may look like:
 
 ### **Installation**
 ```bash
-git clone https://github.com/xwg111/ECHF-Seg.git
+git clone https://github.com/xwg111/ACHENet.git
 conda create -n env_name python=3.7
 conda activate env_name
 conda install pytorch==1.9.0 torchvision==0.14.1 torchaudio==0.10.0 -c pytorch -c nvidia
@@ -67,7 +67,7 @@ This article has been submitted for peer-review in the journal called *The visua
 @ARTICLE{echf,
   author  = {Wenguang Xu, Qian Dong, Shiren Li, Maxim Lushchyk, Shu Li, Maksim Davydov,Longquan Shao, Guangguang Yang},
   journal = {The Viusal Computer}
-  title   = {ECHF-Seg: Effective Convolution and High-frequency Enhancement Scheme for Medical Image Segmentation},
+  title   = {U-shape Network with Adaptive Convolution and High-frequency Enhancement for Medical Image Segmentation},
   year    = {2025}
 }
 ```
