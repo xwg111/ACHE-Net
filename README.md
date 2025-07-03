@@ -67,7 +67,7 @@ This article has been submitted for peer-review in the journal called *The visua
 @ARTICLE{ACHE-Net,
   author  = {Wenguang Xu, Qian Dong, et al},
   journal = {The Visual Computer}
-  title   = {U-shape Network with Adaptive Convolution and High-frequency Enhancement for Medical Image Segmentation},
+  title   = {A U-shaped Network with Adaptive Convolution and High-Frequency Enhancement for Medical Image Segmentation},
   year    = {2025}
 }
 ```
