@@ -65,7 +65,7 @@ Our repo is useful for your research, please consider citing our article. <br>
 This article has been submitted for peer-review in the journal called *The visual computer*.<br>
 ```bibtex
 @ARTICLE{ACHE-Net,
-  author  = {Wenguang Xu, Qian Dong, Shiren Li, Kamoliddin Shukurov, Shu Li, Maksim Davydov, Jawad Hussain, Guangguang Yang},
+  author  = {Wenguang Xu, Qian Dong, et al},
   journal = {The Visual Computer}
   title   = {U-shape Network with Adaptive Convolution and High-frequency Enhancement for Medical Image Segmentation},
   year    = {2025}
