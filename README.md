@@ -1,6 +1,6 @@
 # ACHENet
 
-In the field of medical image segmentation, improving model performance with moderate model parameter becomes an urgent and challenge task. To address this problem, a novel model called ECHF-Seg is proposed in this study, which focuses on the effective convolution and high-frequency enhancement scheme. Two corresponding solutions are Adaptive Decomposed Convolution (ADConv) and Dynamic High-frequency Feature enhancement module (DHF), respectively. Specifically, ADConv achieves a balance between the receptive field and computational overhead by establishing a dynamic mapping between the size of the convolution kernel and the number of channels. In the DHF module, a dynamical Discrete Wavelet Transform (DWT) is included for extracting high-frequency component. In particular, the decomposition level of DWT can be adjusted according to the resolution of the input feature maps. The effectiveness of the proposed ECHF-Seg model is validated through five datasets, which are Glas, BUSI, Kvasir, CVC-ClinicDB, and ISIC 2018. Experimental results show that the proposed ECHF-Seg model can greatly outperform other popular models with moderate model parameter. 
+In the field of medical image segmentation, improving model performance with moderate model parameter becomes an urgent and challenge task. To address this problem, a novel model called ACHE-Net is proposed in this study, which focuses on the effective convolution and high-frequency enhancement scheme. Two corresponding solutions are Adaptive Decomposed Convolution (ADConv) and Dynamic High-frequency Feature enhancement module (DHF), respectively. Specifically, ADConv achieves a balance between the model performance and computational overhead by establishing mapping between the size of the convolution kernel and the number of feature channels. In the DHF module, a dynamical Discrete Wavelet Transform (DWT) is included for enhancing high-frequency component. In particular, the decomposition level of DWT can be adjusted according to the resolution of the input features. The effectiveness of the proposed ACHE-Net is validated through five datasets, which are Glas, BUSI, Kvasir, CVC-ClinicDB, and ISIC 2018. Experimental results show that the proposed ACHE-Net can greatly outperform other popular models with less model parameter.
 
 
 ## Experiment
@@ -65,8 +65,8 @@ Our repo is useful for your research, please consider citing our article. <br>
 This article has been submitted for peer-review in the journal called *The visual computer*.<br>
 ```bibtex
 @ARTICLE{echf,
-  author  = {Wenguang Xu, Qian Dong, Shiren Li, Maxim Lushchyk, Shu Li, Maksim Davydov,Longquan Shao, Guangguang Yang},
-  journal = {The Viusal Computer}
+  author  = {Wenguang Xu, Qian Dong, Shiren Li, Kamoliddin Shukurov, Shu Li, Maksim Davydov,Maksim Davydov, Jawad Hussain, Guangguang Yang},
+  journal = {The Visual Computer}
   title   = {U-shape Network with Adaptive Convolution and High-frequency Enhancement for Medical Image Segmentation},
   year    = {2025}
 }
